@@ -23,13 +23,14 @@ namespace api.Controllers
         [HttpPost]
         public string ToUpper()
         {
+            
             string stringToUpper = string.Empty;
             using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
             {
                 stringToUpper = reader.ReadToEndAsync().Result;
             }
 
-            return stringToUpper?.ToUpper();
+            return lib.Uppercase.ToUpper(stringToUpper);
         }
     }
 }
