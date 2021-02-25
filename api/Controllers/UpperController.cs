@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace api.Controllers
 {
     [ApiController]
-    [Route("dotnet/[controller]")]
+    [Route("[controller]")]
     public class UpperController : ControllerBase
     {
         private readonly ILogger<UpperController> _logger;
