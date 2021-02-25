@@ -1,9 +1,8 @@
 using NUnit.Framework;
-using api;
 
-namespace api.test
+namespace api.integrate
 {
-    public class Tests
+    public class UnitTest
     {
         [SetUp]
         public void Setup()
@@ -11,9 +10,9 @@ namespace api.test
         }
 
         [Test]
-        public void Test1()
+        public void UnitTest1()
         {
-            Assert.IsTrue(true);
+            Assert.True(true);
         }
     }
 }
