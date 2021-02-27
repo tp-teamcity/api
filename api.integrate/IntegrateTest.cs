@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using api;
 
-namespace api.test
+namespace api.integrate
 {
     public class IntegrateTest
     {
@@ -13,7 +13,7 @@ namespace api.test
         [Test]
         public void IntegrateTest1()
         {
-            Assert.True(true);
+            Assert.IsTrue(false);
         }
     }
 }

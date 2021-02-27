@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace api.integrate
+namespace api.test
 {
     public class UnitTest
     {
