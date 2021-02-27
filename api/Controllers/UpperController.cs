@@ -30,7 +30,7 @@ namespace api.Controllers
                 stringToUpper = reader.ReadToEndAsync().Result;
             }
 
-            return lib.Uppercase.ToUpper(stringToUpper);
+            return lib.Uppercase.ToUpper(stringToUpper) + " foo";
         }
     }
 }
